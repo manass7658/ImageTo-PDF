@@ -7,9 +7,9 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 
 TOKEN = os.environ.get("TOKEN", "")
 
-API_ID = int(os.environ.get("API_ID", 12345))
+API_ID = int(os.environ.get("API_ID", 27857521))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "627b314d25c83e2c9a1a99db9ae0a3ef")
 app = Client(
         "pdf",
         bot_token=TOKEN,api_hash=API_HASH,
